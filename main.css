@@ -1,0 +1,132 @@
+.b01{
+	background-color: #FFD700;
+	margin: 4px 2px;
+	padding: 15px 32px;
+	
+	
+	font-size: 16px;
+	color: ghostwhite;
+	text-align: center;
+	
+}
+.container{
+	flex-wrap: wrap;
+	display: flex;
+
+}
+
+
+.buttonSet01{
+	
+	background-color: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width:100%;
+	flex-basis: 100%;
+
+}
+.position{
+	position: fixed;
+}
+.coloumn{
+	padding: 10px;
+    border: 1px solid #ccc;
+    flex-grow: 1;
+}
+.col-12{
+	flex-basis: 100%;
+
+}
+.col-6{
+	flex-basis: 50%;
+}
+.col-3{
+	flex-basis: 25%;
+}
+  @media screen and (max-width: 600px) {
+    .col-12, .col-6, .col-3,.col-3 {
+      flex-basis: 100%;
+    }
+}
+.Search{
+	position: fixed;
+  	right: 15px;
+}
+.col-12 h1{
+	text-align: center;
+	font-size: 50px;
+}
+.font1{
+	text-align: center;
+	
+}
+input{
+	font-family: sans-serif;
+	font-size: 20px; 
+	padding: 5x;
+	margin: 5px 2px;
+}
+.SearchButton{
+	background-color: green;
+	margin: 4px 2px;
+	padding: 8px 32px;
+	
+	
+	font-size: 10px;
+	color: ghostwhite;
+	text-align: center;
+	
+}
+.col-6 p{
+	font-size: 35px;
+	text-align: justify;
+	text-justify: inter-word;
+	padding: 2px 5px;
+
+}
+.color1{
+	background-color: #f2f2f2;
+}
+.color2{
+	background-color: #d9d9d9;
+}
+.color3{
+	background-color: #bfbfbf;
+}
+.table td{
+	width: 300px;
+	text-align: center;
+}
+li{
+	font-size: 30px;
+}
+
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+iframe{
+	margin: 4px 2px;
+	padding: 15px 32px;
+}
+.footer{
+	background-color: #696969;
+	text-align: center;
+	color: white;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 2px 5px;
+	height: 100px;
+
+}
+
+
+
+
+
