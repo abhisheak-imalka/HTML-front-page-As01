@@ -8,11 +8,33 @@
 	color: ghostwhite;
 	text-align: center;
 	
+	
 }
+.b00{
+	background-color: #55c4e1;
+	margin: 4px 2px;
+	padding: 15px 32px;
+	
+	
+	font-size: 16px;
+	color: ghostwhite;
+	text-align: center;
+	
+	
+}
+
 .container{
 	flex-wrap: wrap;
 	display: flex;
 
+}
+.centertxt{
+	position: absolute;
+  	top: 40%;
+  	left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+	color: white;
 }
 
 
@@ -38,6 +60,10 @@
 	flex-basis: 100%;
 
 }
+.col-9{
+	flex-basis: 75%;
+}
+
 .col-6{
 	flex-basis: 50%;
 }
@@ -45,7 +71,7 @@
 	flex-basis: 25%;
 }
   @media screen and (max-width: 600px) {
-    .col-12, .col-6, .col-3,.col-3 {
+    .col-12, .col-9, .col-6,.col-3 {
       flex-basis: 100%;
     }
 }
@@ -68,7 +94,7 @@ input{
 	margin: 5px 2px;
 }
 .SearchButton{
-	background-color: green;
+	background-color: #084ebb;
 	margin: 4px 2px;
 	padding: 8px 32px;
 	
@@ -122,11 +148,28 @@ iframe{
 	left: 0;
 	width: 100%;
 	padding: 2px 5px;
-	height: 100px;
+	height: 200px;
 
 }
+.font2{
+	font-size: 25px; 
+	
 
 
+}
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text-image{
+	position: relative;
+}
 
 
 
